@@ -32,7 +32,21 @@
         echo "My car is a " . $CAR . "<br>";
         echo "My car is a " . $CAr . "<br>"; 
 
-    
+    // WORD COUNT
+echo str_word_count ("Hello world");
+echo "<hr />";
+
+//REVESERSE WORDS
+echo strrev("Hello world");
+echo "<hr />";
+
+//SEARCH FOR TEXT INSIDE A STRING
+echo strpos("Hello world!", "world"); // outputs 6
+echo "<hr />";
+
+//REPLACE TEXT INSIDE A STRING
+echo str_replace("world!", "John", "Hello world!"); // outputs HEllo Dolly!
+echo "<hr />";
 
     
 ?>
