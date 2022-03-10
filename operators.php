@@ -37,6 +37,27 @@
 <?php
 
     // The left operand is assigment the value on the right
+    $x = 20;
+    echo $x;
+
+    ?>
+
+    <h2> Comparison Operators </h2>
+    <!-- Used to compare two values {number to a string} -->
+
+    <?php
+
+    //Equal
+    $x = 300;
+    $y = "300";
+    var_dump($x != $y);
+
+   //Identical
+   $x = 300;
+   $y = "300";
+   var_dump($x == $y);
+
+    ?>
 
     </body>
 
